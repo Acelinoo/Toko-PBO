@@ -49,7 +49,7 @@ function innerCardMenu(name, id, desc, price) {
 					src="../assets/img/nasiuduk.png"
 					alt=""
 					class="produk-img"
-				/>
+				/>  
 			</div>
 			<div class="content">
 				<p>${name}</p>
