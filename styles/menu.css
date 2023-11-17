@@ -1,0 +1,146 @@
+/* jika menggunakan link css import */
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("../assets/font/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito-italic";
+  src: url("../assets/font/Nunito-Italic-VariableFont_wght.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "Nunito";
+  src: url("../assets/font/Nunito-VariableFont_wght.ttf") format("truetype");
+}
+
+.navbar {
+  font-family: "Quicksand";
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  width: 100%;
+  padding: 10px 0px;
+  justify-content: center;
+  border-bottom: 2px solid #91f2ff;
+  /* position: fixed; */
+  width: 360px;
+  top: 0;
+  /* background-color: #fbfbfb; */
+  background-color: white;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 5px;
+}
+
+.container-content {
+  display: flex;
+  padding: 10px 0px;
+
+}
+
+.main-menu {
+  width: 360px;
+  margin: 0px auto;
+
+  height: 81vh;
+  overflow: auto;
+}
+
+.kategori {
+  font-family: "Quicksand";
+  font-size: 14px;
+  padding: 5px;
+  max-width: auto;
+  text-align: center;
+  background-color: rgba(73, 173, 255, 0.568);
+  color: white;
+  border-radius: 10px;
+  margin: 10px 0px;
+  border: none;
+}
+
+.menu-section {
+
+  width: 90%;
+  margin: auto;
+
+}
+
+.produk-img {
+  width: 130px;
+  margin: 5px;
+  margin-top: -20px;
+}
+
+
+  
+.content p {
+  margin: 5px 0px;
+  font-family: "Nunito" ;
+
+}
+.content p:nth-child(1) {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 3px;
+
+}
+
+.content p:nth-child(2) {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.content p:nth-child(3) {
+  font-weight: 600;
+  font-size: 12px;
+  margin: 7px 0px;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pesan {
+  background: rgba(73, 173, 255, 0.568);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-left: 50%;
+  transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+}
+.pesan:hover{
+  background-color: rgba(73, 173, 255, 0.705);
+  transform: scale(1.05);
+}
+.minus {
+  background: rgb(255, 106, 106);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0px 25px;
+}
+
+.container-bayar {
+  width: 360px;
+  padding: 10px;
+
+}
+.container-content{
+  background-color: #91f2ff21;
+  transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: pointer;
+  border-radius: 10px;
+}
+.container-content:hover{
+  transform: scale(1.05);
+}

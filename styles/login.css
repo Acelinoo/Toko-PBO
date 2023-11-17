@@ -1,0 +1,38 @@
+header{
+   width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15% auto;
+}
+header img{
+    width: 100px;
+    user-select: none;
+}
+header h1{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.loginForm input {
+    width: 97%;
+    margin: 10px auto;
+    padding: 10px 0px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: rgb(255, 228, 228); */
+    background-color: #91f2ff;
+  }
+  .loginForm{
+    width: 90%;
+    margin: auto;
+  }
+  .loginForm input:focus {
+  outline: 2px solid rgb(255, 253, 253); 
+  box-shadow: 0 0 5px red;
+}
+.button-full:hover{
+  background-color: #91f2ff;
+}
